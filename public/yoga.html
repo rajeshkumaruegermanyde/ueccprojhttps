@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yoga Trainings</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+    }
+
+    section {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .training {
+      margin-bottom: 30px;
+    }
+
+    .training img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    p {
+      color: #666;
+    }
+    .t-img{
+     width: 300px;
+     height: 500px;
+     transition: 0.2s;
+    }
+    .t-img:hover{
+      scale: 1.05;
+      border: 2px solid rgb(106, 243, 117);
+    }
+    .bt-bk{
+      width: 80px;
+      height: 35px;
+      background-color: burlywood;
+      color: #ee3232;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+    .bt-bk:hover{
+      background-color: rgb(106, 243, 117);
+      color: blue;
+      scale: 1.1;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+     <nav>
+          <label class="lo">Yoga-Training</label>
+          <ul>
+              <li><a class="active" href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="login.html">Login</a></li>
+              <li><a href="review.html">Review</a></li>
+             
+          </ul>
+      </nav>
+  <header>
+    <h1>Yoga Trainings</h1>
+  </header>
+
+  <section>
+    <div class="training">
+      <img class="t-img" src="./images/train-1.webp" alt="Training 1">
+      <h2>Hatha Yoga</h2>
+      <p>
+        Hatha yoga is a foundational style that focuses on physical postures (asanas) and breath control (pranayama). It helps improve flexibility, balance, and overall well-being.
+      </p>
+      <p><strong>Benefits:</strong> Increased flexibility, stress relief, improved posture.</p>
+      <a href=""><button class="bt-bk">Book Now</button></a>
+    </div>
+
+    <div class="training">
+      <img class="t-img" src="./images/Vinyasa-Yoga.jpg" alt="Training 2">
+      <h2>Vinyasa Flow</h2>
+      <p>
+        Vinyasa flow is a dynamic style that synchronizes breath with movement. It provides a cardiovascular workout, enhances strength, and promotes mental focus.
+      </p>
+      <p><strong>Benefits:</strong> Cardiovascular fitness, muscle toning, mental clarity.</p>
+      <a href=""><button class="bt-bk">Book Now</button></a>
+    </div>
+
+    <div class="training">
+      <img class="t-img" src="./images/Kundalini-Yoga-Chakras.jpg" alt="Training 3">
+      <h2>Kundalini Yoga</h2>
+      <p>
+        Kundalini yoga aims to awaken the dormant energy within the body. It involves dynamic movements, breathwork, and meditation to achieve spiritual awareness.
+      </p>
+      <p><strong>Benefits:</strong> Spiritual awakening, increased energy, stress reduction.</p>
+      <a href=""><button class="bt-bk">Book Now</button></a>
+    </div>
+  </section>
+
+</body>
+</html>
